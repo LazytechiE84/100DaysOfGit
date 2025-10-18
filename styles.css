@@ -31,30 +31,23 @@ h1{
     margin-bottom: 20px;
 }
 
-input{
+input {
     width: 400px;
     padding: 15px;
     background-color: #f1f1f1;
-    border-style: none;
+    border: none;  /* Remove border */
+    outline: 2px solid transparent;  /* Invisible outline by default */
+    outline-offset: 2px;  /* Space between input and outline */
     border-radius: 5px;
     margin: 5px 0;
 }
 
-input{
-    width: 400px;
-    padding: 15px;
-    background-color: #f1f1f1;
-    border-style: none;
-    border-radius: 5px;
-    margin: 5px 0;
+input.valid {
+    outline-color: green !important;
 }
 
-input:focus{
-    background-color: #ffffff;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #74f09d;
-    outline: none;
+input.invalid {
+    outline-color: red !important;
 }
 
 label{
