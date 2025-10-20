@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;  
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+}
+
+.container{
+    padding: 10px;
+    background-color: #9e9d9d;
+}
+
+input{
+    max-width: 100px;
+    padding: 10px;
+    font-size: large;
+
+}
+button{
+    font-size: 36px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#negative{
+    font-size: 18px;
+    background-color: rgb(255, 20, 20);
+}
+
+#positive{
+    font-size: 18px;
+    background-color: #1624f5;
+}
+
